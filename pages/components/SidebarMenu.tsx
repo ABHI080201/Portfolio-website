@@ -1,12 +1,15 @@
 // SidebarMenu.tsx
 import React from "react";
 import Link from "next/link"; // Importing Link from Next.js
+import AboutUs from "./Aboutus";
+import Experience from "./Experience";
+import Project from "./Project";
 
 const SidebarMenu: React.FC = () => {
   const menuItems = [
-    { name: "ABOUT", href: "#about" },
-    { name: "EXPERIENCE", href: "#experience" },
-    { name: "PROJECTS", href: "#projects" },
+    { name: "ABOUT", href: { AboutUs } },
+    { name: "EXPERIENCE", href: { Experience } },
+    { name: "PROJECTS", href: { Project } },
     { name: "EDUCATION", href: "#education" },
     { name: "ACHIEVEMENTS & CERTIFICATIONS", href: "#achievements" },
   ];

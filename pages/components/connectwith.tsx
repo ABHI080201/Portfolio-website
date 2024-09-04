@@ -10,7 +10,7 @@ import {
 
 const ConnectWith: React.FC = () => {
   return (
-    <div className="flex flex-col items-start  text-black mt-20">
+    <div className="flex flex-col items-start  text-black mt-10 ">
       <div className="flex gap-4 mb-2">
         {/* LinkedIn Icon */}
         <a
