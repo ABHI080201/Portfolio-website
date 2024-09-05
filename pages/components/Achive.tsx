@@ -39,7 +39,7 @@ const Achieve: React.FC = () => {
       <h2 className="text-xl font-bold mb-4 text-black">
         ACHIEVEMENTS & CERTIFICATIONS
       </h2>
-      <ul className="list-none space-y-4 hover:bg-blue-100">
+      <ul className="p-2 rounded-lg list-none space-y-4 hover:bg-blue-100">
         {achievements.map((achievement, index) => (
           <li key={index} className="flex items-start">
             <span className="font-bold w-24 text-black flex-shrink-0">

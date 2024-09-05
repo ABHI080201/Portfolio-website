@@ -1,4 +1,3 @@
-// ConnectWith.tsx
 import React from "react";
 import {
   FaLinkedin,
@@ -10,29 +9,28 @@ import {
 
 const ConnectWith: React.FC = () => {
   return (
-    <div className="flex flex-col items-start  text-black mt-10 ">
+    <div className="flex flex-col items-start  text-black lg:mt-20 ">
       <div className="flex gap-4 mb-2">
-        {/* LinkedIn Icon */}
         <a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/in/abhishekdandgawhal/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin className="text-2xl hover:text-blue-500" />
         </a>
-        {/* GitHub Icon */}
+
         <a
-          href="https://www.github.com"
+          href="https://github.com/ABHI080201"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub className="text-2xl hover:text-gray-500" />
         </a>
-        {/* Email Icon */}
-        <a href="mailto:your-email@example.com">
+
+        <a href="abhishekdandgawhal@gmail.com">
           <FaEnvelope className="text-2xl hover:text-red-500" />
         </a>
-        {/* Instagram Icon */}
+
         <a
           href="https://www.instagram.com"
           target="_blank"
@@ -40,7 +38,7 @@ const ConnectWith: React.FC = () => {
         >
           <FaInstagram className="text-2xl hover:text-pink-500" />
         </a>
-        {/* Facebook Icon */}
+
         <a
           href="https://www.facebook.com"
           target="_blank"
@@ -49,7 +47,7 @@ const ConnectWith: React.FC = () => {
           <FaFacebook className="text-2xl hover:text-blue-700" />
         </a>
       </div>
-      <p className="text-sm text-gray-400">
+      <p className="hidden lg:block text-sm text-gray-700">
         Copyright © 2024 | Abhishek Dandgawhal
       </p>
     </div>

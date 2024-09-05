@@ -26,7 +26,10 @@ const Education = () => {
     <div className=" p-6 rounded-lg text-black   lg:w-[500px] lg:ml-[+500px]  ">
       <h2 className="text-xl font-bold mb-6 text-black">Education</h2>
       {experiences.map((experience, index) => (
-        <div key={index} className="mb-8 p-4 rounded-lg hover:bg-blue-100">
+        <div
+          key={index}
+          className="mb-6 hover:bg-blue-100 ml-[-20px] lg:mb-8 p-4 rounded-lg hover:bg-blue-100"
+        >
           <h3 className="text-2xl font-bold text-black">{experience.role}</h3>
           <p className="text-md font-semibold text-black">
             {experience.company} <span>&rarr;</span>

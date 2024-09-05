@@ -4,8 +4,8 @@ const AboutUs: React.FC = () => {
   return (
     <div className="p-6 text-black mt-[75px]  ml-[-10px]  lg:w-[500px]  lg:ml-[+500px]">
       <h2 className="text-xl font-bold mb-4">ABOUT</h2>
-      <div className="hover:bg-blue-100">
-        <p className="mb-6 text-md leading-relaxed">
+      <div className="rounded-lg p-2 hover:bg-blue-100">
+        <p className="mb-6 text-md leading-relaxed ">
           Welcome! Im thrilled to have you here. Allow me to introduce myself —
           Im Abhishek Dandgawhal, a passionate Developer with excellent academic
           credentials and professional experience in leadership, technology, and

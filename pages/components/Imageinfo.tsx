@@ -25,7 +25,7 @@ const ProfileCard = () => {
             </span>
           </div>
         </div>
-        <div className="flex items-center w-full sm:w-[400px] p-2 lg:w-[500px]">
+        <div className="flex items-center w-full sm:w-[500px] p-2 lg:w-[500px]">
           <p className="text-sm text-gray-700  sm:text-lg justify-text  md:ml-[-20px] lg:ml-[+30px] lg:w-[600px]">
             Software and Full-Stack AI Developer crafting intuitive digital
             experiences and AI solutions with seamless design and functionality,
