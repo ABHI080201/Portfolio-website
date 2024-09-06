@@ -183,7 +183,7 @@ const Project = () => {
             {experience.skills.map((skill, skillIndex) => (
               <span
                 key={skillIndex}
-                className="text-sm px-2 py-1 rounded-full text-black font-semibold hover:bg-blue-400"
+                className="text-sm px-2 py-1 rounded-full text-black font-semibold bg-blue-200 hover:bg-blue-400"
               >
                 {skill}
               </span>

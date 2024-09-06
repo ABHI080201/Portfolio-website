@@ -32,8 +32,11 @@ const TorchLightCursor: React.FC = () => {
           height: "500px",
           left: position.x - 250,
           top: position.y - 250,
-          background:
-            "radial-gradient(circle, rgba(255, 255, 255, 0.7) 10%, rgba(24, 41, 77, 0.85) 70%, rgba(0, 0, 0, 0.95) 90%)",
+          backgroundImage: `radial-gradient(
+            circle farthest-side at ${position.x}px ${position.y}px,
+            #3a4a6a 0%,  /* Lighter shade of your background */
+            #111d39 100%  /* Your background color */
+          )`,
           mixBlendMode: "screen",
           transition: "transform 0.05s ease-out", // Smooth transition for better effect
         }}
