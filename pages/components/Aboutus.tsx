@@ -3,7 +3,9 @@ import React from "react";
 const AboutUs: React.FC = () => {
   return (
     <div className="p-6 text-black mt-[75px]  ml-[-10px]  lg:w-[500px]  lg:ml-[+500px]">
-      <h2 className="text-xl font-bold mb-4">ABOUT</h2>
+      <h2 className=" text-xl font-bold mb-4 ml-[10px] lg:text-xl font-bold mb-4 ">
+        ABOUT
+      </h2>
       <div className="rounded-lg p-2 hover:bg-blue-100">
         <p className="mb-6 text-md leading-relaxed ">
           Welcome! Im thrilled to have you here. Allow me to introduce myself —

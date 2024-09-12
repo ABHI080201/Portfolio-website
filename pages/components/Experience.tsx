@@ -3,25 +3,6 @@ import React from "react";
 const Experience = () => {
   const experiences = [
     {
-      role: "Full Stack Developer",
-      company: "Analysed",
-      period: "June 2023 -- May 2024",
-      description: `Optimized app performance, improving speed by 30% and reducing load times by 20%. Streamlined team collaboration, boosting project delivery efficiency by 25% and cutting rework time by 40%. Leveraged MERN stack (MongoDB, Express.js, React.js, Node.js) to achieve 100% successful project deliveries.`,
-      skills: [
-        "React",
-        "TypeScript",
-        "CSS",
-        "Rest API",
-        "Webpack",
-        "Three.js",
-        "MongoDb",
-        "React Router",
-        "Next.js",
-        "Vite",
-        "Plotly.js",
-      ],
-    },
-    {
       role: "Data Science Intern",
       company: "LetsGrowMore",
       period: "Mar 2022 -- Sep 2022",

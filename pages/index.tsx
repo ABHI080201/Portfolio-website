@@ -35,7 +35,6 @@
 //   );
 // };
 
-// export default Home;
 import React from "react";
 import ProfileCard from "./components/Imageinfo";
 import AboutUs from "./components/Aboutus";
@@ -43,8 +42,6 @@ import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Education from "./components/Education";
 import Achieve from "./components/Achive";
-import TorchLightCursor from "./components/Torch";
-// Import the TorchLightCursor component
 
 const Home = () => {
   return (
