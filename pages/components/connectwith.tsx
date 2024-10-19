@@ -16,7 +16,7 @@ const ConnectWith: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin className="text-2xl hover:text-blue-500" />
+          <FaLinkedin className="text-2xl text-blue-500" />
         </a>
 
         <a
@@ -28,7 +28,7 @@ const ConnectWith: React.FC = () => {
         </a>
 
         <a href="abhishekdandgawhal@gmail.com">
-          <FaEnvelope className="text-2xl hover:text-red-500" />
+          <FaEnvelope className="text-2xl text-red-500" />
         </a>
 
         <a
@@ -36,7 +36,7 @@ const ConnectWith: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram className="text-2xl hover:text-pink-500" />
+          <FaInstagram className="text-2xl text-pink-500" />
         </a>
 
         <a
@@ -44,7 +44,7 @@ const ConnectWith: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFacebook className="text-2xl hover:text-blue-700" />
+          <FaFacebook className="text-2xl text-blue-700" />
         </a>
       </div>
       <p className="hidden lg:block text-sm text-gray-700">
